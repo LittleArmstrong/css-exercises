@@ -45,6 +45,9 @@
 
 .sidebar {
    background-color: #ff7755;
+   display: grid;
+   grid-template-rows: repeat(4, 1fr);
+   gap: 50px;
    grid-column: 1;
    grid-row: 2/4;
 }
@@ -55,6 +58,8 @@
    font-size: 12px;
    font-weight: normal;
    border-radius: 10px;
+   display: grid;
+   place-items: center;
 }
 
 .sidebar .side-content {
@@ -62,6 +67,8 @@
    color: black;
    font-size: 16px;
    font-weight: normal;
+   display: grid;
+   place-items: center;
 }
 
 .nav {
